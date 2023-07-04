@@ -5,11 +5,29 @@ labels:
 - script
 - editor
 - controller
-timeCreated: 1448719609
-licenseType: Store
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ground: {instanceID: 0}
+  - walls: {instanceID: 0}
+  - pusher: {instanceID: 0}
+  - tapHereZone: {instanceID: 0}
+  - coinCollector: {instanceID: 0}
+  - destroyer: {instanceID: 0}
+  - bigCoinGo: {instanceID: 0}
+  - coinText: {instanceID: 0}
+  - xpTotalToNextLevelText: {instanceID: 0}
+  - xpCurrentToNextLevelText: {instanceID: 0}
+  - xpSlider: {instanceID: 0}
+  - playerLevelText: {instanceID: 0}
+  - timerOnlineText: {instanceID: 0}
+  - effectZone: {instanceID: 0}
+  - wallUpSound: {instanceID: 0}
+  - wallDownSound: {instanceID: 0}
+  - tapEmptySound: {instanceID: 0}
+  - prizeManagerScript: {instanceID: 0}
+  - coinManagerScript: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
