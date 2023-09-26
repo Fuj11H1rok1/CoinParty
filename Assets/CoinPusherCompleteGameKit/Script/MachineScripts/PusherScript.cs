@@ -18,7 +18,7 @@ public class PusherScript : MonoBehaviour
         return pusherGo;
     }
 
-   /* void Awake()
+   void Awake()
     {           
         maxPusherMoveGO = GameObject.Find("PusherMaxDist");
         maxPusherMove = maxPusherMoveGO.transform.position;
@@ -27,7 +27,7 @@ public class PusherScript : MonoBehaviour
         startPusherPos = pusherGo.transform.position;
         startPusherRot = pusherGo.transform.rotation;
         
-    }*/
+    }
 
     public void InitPusherData() //
     {

@@ -37,7 +37,7 @@ public class WallsScript : MonoBehaviour {
         wallGOCollider = wallGo.GetComponentsInChildren<Collider>();
         foreach(Collider col in wallGOCollider)
         {
-            col.isTrigger = true;
+            // col.isTrigger = true;
         }
         _audio = wallGo.GetComponent<AudioSource>();
         _audio.playOnAwake = false;

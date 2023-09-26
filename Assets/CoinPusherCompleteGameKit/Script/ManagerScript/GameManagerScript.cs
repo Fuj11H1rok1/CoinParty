@@ -170,7 +170,7 @@ public class GameManagerScript : MonoBehaviour {
             }
         }
         coinText.text = ""+playerActualCoins;
-        CheckLevel();
+        // CheckLevel();
         UpdateXPUI();
     }
 
