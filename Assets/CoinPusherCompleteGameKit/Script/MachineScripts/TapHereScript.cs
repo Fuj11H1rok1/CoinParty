@@ -55,7 +55,7 @@ public class TapHereScript : MonoBehaviour {
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, 100.0f))
             {
-                if (hit.collider.gameObject == thisTapHere && gameManagerScript.GetPlayerActualCoins() > 0 && canTap)
+                if (hit.collider.gameObject == thisTapHere && gameManagerScript.GetPlayerActualCoins() > 0 && canTap)//山本
                 {
                     if(gameManagerScript.GetPlayerActualCoins() > 0 && canTap)
                     {
@@ -71,10 +71,8 @@ public class TapHereScript : MonoBehaviour {
                             _audio.clip = tapEmptySound;
                             _audio.Play();
                         }
-                    }
-
-                    
-                }                
+                    }                    
+                }           
             }
         }
         if (canTap)
@@ -100,7 +98,7 @@ public class TapHereScript : MonoBehaviour {
         //if you want a display of action left, you can update this display here.
         // ex: create an array of your sprites (number of sprite must be the same as tapActionLimit)
         // 
-        // mySpriteArray[tapActionLeft-1].setActive = true;
+        //mySpriteArray[tapActionLeft-1].setActive = true;
         //
         //
         canTap = true;
