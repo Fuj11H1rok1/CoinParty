@@ -7,7 +7,7 @@ public class TapHereScript : MonoBehaviour {
     private GameObject thisTapHere;
     private CoinsManagerScript coinManagerScript;
     private GameManagerScript gameManagerScript;
-    private float spawnHight=2;
+    private float spawnHight=5;
     private bool canTap = true;
     private float tapActionRegenTime;
     private int tapActionLimit;
